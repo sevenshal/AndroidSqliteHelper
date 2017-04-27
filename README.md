@@ -14,7 +14,7 @@ allprojects {
 	}
 
 dependencies {
-    	        compile 'com.github.sevenshal:AndroidSqliteHelper:v1.0'
+    	        compile 'com.github.sevenshal:AndroidSqliteHelper:1.0'
     	}
 ```
 
