@@ -7,7 +7,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
 import java.io.BufferedReader;
@@ -34,7 +33,6 @@ public class SqliteHelperService extends Service {
 
     private ServerSocket serverSocket;
 
-    @Nullable
     @Override
 
     public IBinder onBind(Intent intent) {
