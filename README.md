@@ -6,9 +6,16 @@ sqlitehelper
 ## 安装
 
 ```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
 dependencies {
-    debugCompile 'com.sevenshal.sqlitehelper:sqlitehelper:1.+'
-}
+    	        compile 'com.github.sevenshal:AndroidSqliteHelper:1.+'
+    	}
 ```
 
 ## 例子
